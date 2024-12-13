@@ -1,7 +1,7 @@
 const yesBtn = document.querySelector('#yesBtn');
 
 yesBtn.addEventListener('click',function () {
-    alert('¿Soy irresistible verdad?')
+    alert('Bueno, si insistes...')
 });
 
 const noBtn = document.querySelector('#noBtn');
@@ -13,3 +13,4 @@ noBtn.addEventListener('mouseover', function () {
     noBtn.style.setProperty('left',randomX+'%');
     noBtn.style.setProperty('transform',`translate(-${randomX}%,-${randomY}%)`);
 })
+const randomX = parseInt (Match.random ()*100);
