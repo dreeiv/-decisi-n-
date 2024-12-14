@@ -1,7 +1,7 @@
 const yesBtn = document.querySelector('#yesBtn');
 
 yesBtn.addEventListener('click',function () {
-    alert('Bueno, si insistes...')
+    alert('Bueno, si insistes... Sabes que no soy orgulloso.')
 });
 
 const noBtn = document.querySelector('#noBtn');
